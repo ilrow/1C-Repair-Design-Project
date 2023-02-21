@@ -634,6 +634,8 @@ table {
 }
 @media (max-width:768px) {
     .title__step-2__text{
+	display: grid;
+    	justify-items: flex-start;
         font-size: 11px;
         line-height: 17px;
         text-align : center;
